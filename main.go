@@ -54,7 +54,7 @@ func CheckForWinner(b [9]string, n int) (bool, string) {
 		}
 	}
 	i = 0
-	//Vertikaal
+	//Verticaal
 	for i < 3 {
 		test = b[i] == b[1+3] && b[1+3] == b[i+6] && b[i] != ""
 		if !test {
